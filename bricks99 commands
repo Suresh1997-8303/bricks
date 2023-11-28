@@ -1,0 +1,108 @@
+  ll
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  suo apt install git -y
+    5  sudo apt install git -y
+    6  git init .
+    7  sudo apt-get update
+    8  sudo apt install unzip -y
+    9  cd /opt
+   10  wget https://dlcdn.apache.org/maven/maven-4/4.0.0-alpha-8/binaries/apache-maven-4.0.0-alpha-8-bin.zip
+   11  ll
+   12  unzip apache-maven-4.0.0-alpha-8-bin.zip 
+   13  ll
+   14  mv apache-maven-4.0.0-alpha-8 maven
+   15  ll
+   16  rm -rf apache-maven-4.0.0-alpha-8-bin.zip
+   17  ll
+   18  git clone https://github.com/Suresh1997-8303/bricks.git
+   19  ll
+   20  cd maven/
+   21  cd /bin
+   22  cd /etc
+   23  ll
+   24  cd profile.d/
+   25  vi maven.sh
+   26  source maven.sh
+   27  apt-get update
+   28  apt install openjdk-17-jdk openjdk-17-jre
+   29  mvn -version
+   30  ll
+   31  cd 
+   32  ll
+   33  cd bricks
+   34  git clone https://github.com/Suresh1997-8303/bricks.git
+   35  ll
+   36  cd bricks/
+   37  ll
+   38  cd Bricks99_BackEnd-master/
+   39  LL
+   40  ll
+   41  cd src
+   42  ll
+   43  cd main
+   44  ll
+   45  cd resources/
+   46  ll
+   47  vi application.properties 
+   48  ll
+   49  cd
+   50  ll
+   51  cd bricks/
+   52  sudo apt update
+   53  sudo apt install mysql-server
+   54  sudo systemctl start mysqld
+   55  mvn clean package
+   56  cd -
+   57  cd ../../
+   58  mvn clean package
+   59  cd 
+   60  mvn clean package
+   61  cd /opt
+   62  ll
+   63  cd 
+   64  ll
+   65  cd bricks
+   66  cd Bricks99_BackEnd-master/
+   67  ll
+   68  mvn clean package
+   69  ll
+   70  java -jar Bricks99-0.0.1-SNAPSHOT.jar 
+   71  ll
+   72  cdc 
+   73  cd
+   74  ll
+   75  cd bricks
+   76  ll
+   77  d Bricks99_BackEnd-master/
+   78  cd Bricks99_BackEnd-master/
+   79  ll
+   80  cd src
+   81  cd main/
+   82  ll
+   83  cd java
+   84  ll
+   85  cd com/
+   86  ll
+   87  cd marolix/
+   88  ll
+   89  cd Bricks99/
+   90  LL
+   91  ll
+   92  cd api
+   93  ll
+   94  vi AppInfo.java 
+   95  mvn clean package
+   96  cd 
+   97  ll
+   98  cd bricks/
+   99  ll
+  100  cd Bricks99_BackEnd-master/
+  101  ll
+  102  mvn clean package
+  103  ll
+  104  cd target/
+  105  ll3
+  106  ll
+  107  java -jar Bricks99-0.0.1-SNAPSHOT.jar 
+  108  history
